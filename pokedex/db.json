@@ -1,0 +1,9 @@
+{
+    "pokemons": [
+        {"id": 1, "name": "Bulbasaur", "imgSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"},
+        {"id": 2, "name": "Ivysaur", "imgSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"},
+        {"id": 3, "name": "Venusaur", "imgSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"},
+        {"id": 4, "name": "Charmander", "imgSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"},
+        {"id": 5, "name": "Charmeleon", "imgSource": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"}
+    ]
+}

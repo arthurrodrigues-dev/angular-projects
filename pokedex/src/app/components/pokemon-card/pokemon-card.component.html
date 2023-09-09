@@ -1,0 +1,12 @@
+<div class="card" *ngFor="let pokemon of pokemons | async">
+    <span class="pokemon-id">#{{ pokemon.id }}</span>
+    <img [src]="pokemon.sprites.other['official-artwork']['front_default']" alt="">
+
+    <span class="pokemon-name">{{ pokemon.name }}</span>
+</div>
+
+<!-- <pre>
+    {{pokemons | async | json}}
+</pre>  -->
+
+<!-- sprites.other["official-artwork"]["front_default"] -->

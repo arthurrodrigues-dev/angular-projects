@@ -1,0 +1,38 @@
+:host {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    max-width: 250px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    background-color: brown;
+}
+
+.pokemon-id {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+}
+
+.pokemon-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+pre {
+    color: #000;
+    margin: 0 auto;
+    width: 500px;
+}
