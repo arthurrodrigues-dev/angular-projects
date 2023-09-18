@@ -2,4 +2,27 @@
     max-width: 1400px;
     margin: 0 auto;
     border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        
+        input {
+            padding: 5px;
+            width: 100%;
+        }
+
+        .logo img {
+            width: 200px;
+        }
+    }
+
+    .navbar-left {
+        width: 50%;
+    }
 }
